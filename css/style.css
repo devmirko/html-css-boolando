@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+*{
+    box-sizing: border-box;
+
+    
+
+}
+
+/*  stile struttura della pagina  */
+body{
+    background-color: white;
+    font-family: Roboto, san sarif;
+    
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+    background-color: red;
+    
+}
+
+/* stile struttura riga  */
+.raw{
+    padding: 20px;
+    text-align: center;
+   
+   
+}
+
+/* stile struttura box immagine  */
+.box-image{
+    width: 32%;
+    background-color: yellow;
+    display: inline-block;
+    text-align: center;
+    margin: 0 10px;
+    position: relative;
+
+}
+
+.box-image img{
+    max-width: 100%;
+}
+
+.box-image .heart{
+    font-size: 20px;
+    background-color: white;
+    padding: 10px;
+    position: absolute;
+    top: 40px;
+    right: 0;
+}
+
+.box-image .label{
+        color: white;
+        padding: 8px;
+      
+}
+
+.sconto {
+    background-color: red;
+    position: absolute;
+    bottom: 40px;
+    left: 0;
+
+} /* sconto*/
+
+  
+ .sostenibile {
+     background-color: green;
+     position: absolute;
+     bottom: 40px;
+     left: 60px;
+    
+} /* prodotto sostenibile*/
