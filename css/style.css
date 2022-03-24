@@ -17,14 +17,14 @@ body{
 .container{
     width: 80%;
     margin: 0 auto;
-    background-color: red;
+    
     
 }
 
 /* stile struttura riga  */
 .raw{
     padding: 20px;
-    text-align: center;
+    /* text-align: center; */
    
    
 }
@@ -32,9 +32,7 @@ body{
 /* stile struttura box immagine  */
 .box-image{
     width: 32%;
-    background-color: yellow;
     display: inline-block;
-    text-align: center;
     margin: 0 10px;
     position: relative;
 
@@ -51,18 +49,20 @@ body{
     position: absolute;
     top: 40px;
     right: 0;
+   
 }
 
 .box-image .label{
         color: white;
         padding: 8px;
+        z-index: ;
       
 }
 
 .sconto {
     background-color: red;
     position: absolute;
-    bottom: 40px;
+    bottom: 120px;
     left: 0;
 
 } /* sconto*/
@@ -71,7 +71,45 @@ body{
  .sostenibile {
      background-color: green;
      position: absolute;
-     bottom: 40px;
+     bottom: 120px;
      left: 60px;
+     
     
 } /* prodotto sostenibile*/
+
+/* stile e strutura sottoimmagine */
+ .sotto-immagine{
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.box-image:hover .sotto-immagine{
+
+z-index: 1;
+
+}
+
+span{
+    z-index: 20;
+}
+
+/* stile descrizione prodotto */
+
+.marca{
+    margin:  0;
+
+}
+.modello{
+    margin: 0;
+}
+.prezzo{
+    margin: 0;
+}
+.prezzo_scontato{
+    margin: 0;
+}
+
+
+
